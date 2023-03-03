@@ -124,6 +124,10 @@ toolIterativeEDGETransport <- function(reporting=FALSE) {
     totveh = NULL
   }
 
+  browser() 
+
+
+  debugger()
   ## load price
   REMIND_prices <- toolMergePrices(
     gdx = gdx,

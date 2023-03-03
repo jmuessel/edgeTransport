@@ -14,17 +14,18 @@
 #' @importFrom magrittr `%>%`
 #' @export
 
-toolMergePrices <- function(gdx, REMINDmapping, REMINDyears,
+toolMergePrices <- function(gdx, j, REMINDyears,
                          intensity_data,
                          nonfuel_costs,
                          module="edge_esm", FE_Pricetab = NULL) {
-  sector_fuel <- ttot <- value <- fuel_price <- fuel_price_pkm <- EJ_Mpkm_final <- non_fuel_price <-
-    technology <- GDP_cap <- region <- `.` <- weight <- POP_val <- GDP <- `elect_td_trn` <- time <-
-      `Liquids-Electricity` <- `refined liquids enduse` <- vehicle_type <- subsector_L3 <-
-        subsector_L2 <- subsector_L1 <- sector <- tot_price <- value.x <- value.y <- NULL
-    ## report prices from REMIND gdx in 2005$/GJ
+    ttot <- value <- fuel_price <- fuel_price_pkm <- EJ_Mpkm_final <- non_fuel_price <-
+     region <- `.` <- weight <- POP_val <- GDP <- `elect_td_trn` <- time <-
+      `Liquids-Electricity` <- `refined liquids enduse` <- vehicle_type <- subsector_L3 <- 
+      subsector_L1 <- sector <- tot_price <- value.x <- value.y <- NULL
 
+    ## report prices from REMIND gdx in 2005$/GJ
     tdptwyr2dpgj <- 31.71  #TerraDollar per TWyear to Dollar per GJ
+    
     ## load entries from the gdx, values below 2020 do not make sense
     pfe <- readGDX(gdx, "pm_FEPrice", format = "first_found", restore_zeros = FALSE)[,, "trans.ES", pmatch=TRUE]
     startyear <- getYears(pfe, as.integer=TRUE)[1]
@@ -57,7 +58,7 @@ toolMergePrices <- function(gdx, REMINDmapping, REMINDyears,
 
     }
 
-
+### pay attention to shares
     varmap <- fread(text="
 all_enty,sector_fuel
 fedie,refined liquids enduse
@@ -77,6 +78,7 @@ feh2t,H2 enduse
     }
 
     ## hybrids price from electricity and liquids
+    ## 
     pfe <- pfe %>%
       dcast(...~sector_fuel) %>%
       .[, `Liquids-Electricity` := 0.6*`refined liquids enduse` + 0.4 * `elect_td_trn`] %>%

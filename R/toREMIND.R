@@ -2,7 +2,7 @@
 
 toolREMINDdat <- function(merged_data, VOT_lambdas, REMIND2ISO_MAPPING, GDP_country) {
   
-  sector_fuel <- technology <- `.` <- kJ.per.vkm <- conv_vkm_MJ <- ttw_energy <- value <- NULL
+  sector_fuel <- technology <- `.` <- value <- NULL
   
   gdp = copy(GDP_country)
 
@@ -88,7 +88,6 @@ toolREMINDdat <- function(merged_data, VOT_lambdas, REMIND2ISO_MAPPING, GDP_coun
   vt = list(value_time_FV = vt_FV, value_time_VS1 = vt_VS1, value_time_S1S2 = vt_S1S2, value_time_S2S3 = vt_S2S3, value_time_S3S = vt_S3S)
 
   ## price non-motorized
-
   pnm = copy(VOT_lambdas$price_nonmot)
   pnm = aggregate_dt(data = pnm,
                         mapping = REMIND2ISO_MAPPING,

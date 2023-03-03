@@ -3,7 +3,7 @@
 #' Run this script to prepare the input data for EDGE in EDGE-friendly units and regional aggregation
 #'
 #' `calcgenerateEDGEdata()` is a wrapper for `generateEDGEdata()` to make use of
-#' madrat caching.
+#' madrat caching
 #'
 #' @md
 #' @param input_folder folder hosting raw data
@@ -218,6 +218,7 @@ toolGenerateEDGEdata <- function(input_folder, output_folder, cache_folder = NUL
   if (!is.null(FEPricetab) && !is.null(output_folder)) {
     fwrite(FEPricetab, file.path(cfgpath, "FEPricetab.csv"))
   }
+
   REMIND_prices <- toolMergePrices(
     gdx = gdxPath,
     REMINDmapping = REMIND2ISO_MAPPING,
