@@ -55,6 +55,12 @@ toolLoadmrdriversData <- function(SSPscen, helpers) {
                        regionmapping = "regionmapping_21_EU11.csv")[, , SSPscen] |> time_interpolate(years)
   POP <- magpie2dt(POPmag, yearcol = "period", regioncol = "region")[, variable := "Population"][, unit := "million"]
 
+  #reduce values for India
+  #GDPMER[period >= 2060, value := value[period==2060]]
+  #GDPpcMER[period >= 2060, value :=  value[period==2060]]
+  #GDPppp[period >= 2060, value :=  value[period==2060]]
+  #GDPpcPPP[period >= 2060, value :=  value[period==2060]]
+
   list(GDPMER = GDPMER,
        GDPpcMER = GDPpcMER,
        GDPppp = GDPppp,
