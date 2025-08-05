@@ -55,11 +55,34 @@ toolLoadmrdriversData <- function(SSPscen, helpers) {
                        regionmapping = "regionmapping_21_EU11.csv")[, , SSPscen] |> time_interpolate(years)
   POP <- magpie2dt(POPmag, yearcol = "period", regioncol = "region")[, variable := "Population"][, unit := "million"]
 
-  #reduce values for India
-  #GDPMER[period >= 2060, value := value[period==2060]]
-  #GDPpcMER[period >= 2060, value :=  value[period==2060]]
-  #GDPppp[period >= 2060, value :=  value[period==2060]]
-  #GDPpcPPP[period >= 2060, value :=  value[period==2060]]
+  GDPpcMER[region == "IND"]
+  if (SSPscen == "SSP2IndiaHigh") { #
+    #reduce values for India
+    #3.121635 = GDPppp / GDPMER 
+    #interpolate between 2020 and 2100 values in "IND" for GDPppp and GDPpcPPP
+    #Define the convergence factor and years
+    factor <- 5
+    start_year <- 2020
+    end_year <- 2150
+
+    #Apply to GDPppp
+   # Define interpolation function
+    interpolate_gdp <- function(dt, region_name, start_year, end_year, factor) {
+      dt[region == region_name & period %between% c(start_year, end_year), 
+        value := {
+          val_start <- value[period == start_year]
+          val_end <- value[period == end_year] / factor
+          slope <- (val_end - val_start) / (end_year - start_year)
+          val_start + slope * (period - start_year)
+        }]
+    }
+
+    # Apply to each GDP-related data table
+    #GDPppp, GDPpcPPP
+    GDPppp <- interpolate_gdp(GDPppp, "IND", start_year, end_year, factor)
+    GDPpcPPP <- interpolate_gdp(GDPpcPPP, "IND", start_year, end_year, factor)
+
+  }
 
   list(GDPMER = GDPMER,
        GDPpcMER = GDPpcMER,
