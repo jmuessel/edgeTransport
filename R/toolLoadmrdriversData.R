@@ -61,8 +61,8 @@ toolLoadmrdriversData <- function(SSPscen, helpers) {
     #3.121635 = GDPppp / GDPMER 
     #interpolate between 2020 and 2100 values in "IND" for GDPppp and GDPpcPPP
     #Define the convergence factor and years
-    factor <- 5
-    start_year <- 2020
+    factor <- 4.5
+    start_year <- 2025
     end_year <- 2150
 
     #Apply to GDPppp
