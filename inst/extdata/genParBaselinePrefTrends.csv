@@ -467,7 +467,7 @@ SSP3;SSA;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass
 SSP3;UKI;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.25;1;1;1
 SSP3;USA;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.25;1;1;1
 SSP5;CAZ;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.0308;0.0768;0.1008;0.1008
-SSP5;CHA;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;NA;NA;NA;NA;NA
+SSP5;CHA;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;;;;;
 SSP5;DEU;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.014;0.1;0.135;0.135
 SSP5;ECE;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.028;0.076;0.129;0.129
 SSP5;ECS;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.0224;0.0768;0.126;0.126
@@ -476,10 +476,10 @@ SSP5;ESC;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass
 SSP5;ESW;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.0336;0.0864;0.126;0.126
 SSP5;EWN;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0.001;0.042;0.098;0.135;0.135
 SSP5;FRA;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.028;0.096;0.126;0.126
-SSP5;IND;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;NA;NA;NA;NA;NA
+SSP5;IND;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;;;;;
 SSP5;JPN;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.112;0.2112;0.3024;0.3024
 SSP5;LAM;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.0392;0.0864;0.1512;0.1512
-SSP5;MEA;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;NA;NA;NA;NA;NA
+SSP5;MEA;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;;;;;
 SSP5;NEN;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.028;0.0672;0.0882;0.0882
 SSP5;NES;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.028;0.0672;0.1008;0.1008
 SSP5;OAS;BEV;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0;0.0308;0.0672;0.0882;0.0882
@@ -5483,7 +5483,7 @@ SSP3;SSA;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_
 SSP3;UKI;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;0.7;0.1;0.1
 SSP3;USA;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;0.7;0.1;0.1
 SSP5;CAZ;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
-SSP5;CHA;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;NA;NA;NA;NA;NA
+SSP5;CHA;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;;;;;
 SSP5;DEU;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
 SSP5;ECE;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
 SSP5;ECS;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
@@ -5492,10 +5492,10 @@ SSP5;ESC;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_
 SSP5;ESW;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
 SSP5;EWN;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
 SSP5;FRA;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
-SSP5;IND;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;NA;NA;NA;NA;NA
+SSP5;IND;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;;;;;
 SSP5;JPN;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
 SSP5;LAM;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
-SSP5;MEA;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;NA;NA;NA;NA;NA
+SSP5;MEA;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;;;;;
 SSP5;NEN;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
 SSP5;NES;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
 SSP5;OAS;Liquids;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;1;1;1
@@ -11335,3 +11335,70 @@ SSP5;USA;;;;;Passenger Rail;trn_pass;S1S;0.001933;0.001933;0.001546;0.0006765;0.
 SSP5;USA;;;;;trn_freight_road;trn_freight;S1S;1;1;1;1;1
 SSP5;USA;;;;;trn_pass_road;trn_pass;S1S;0.1305;0.1827;0.188;0.1109;0.1109
 SSP5;USA;;;;;Walk;trn_pass;S1S;1;1;1;1;1
+SSP2Leap;IND;BEV;Bus_tmp_vehicletype;Bus_tmp_subsectorL3;Bus;trn_pass_road;trn_pass;FV;0;0.1;0.2935;0.6653;0.6653
+SSP2Leap;IND;BEV;Moped;trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0.2;0.6;1;1;1
+SSP2Leap;IND;BEV;Rickshaw;trn_pass_road_LDV_3W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0.2;0.6;1;1;1
+SSP2Leap;IND;BEV;Motorcycle (50-250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;0.2;0.6;1;1;1
+SSP2Leap;IND;BEV;Truck (0-3_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0.02787;0.06365;0.0643;0.0643
+SSP2Leap;IND;BEV;Truck (18t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0.01109;0.03424;0.06237;0.06237
+SSP2Leap;IND;BEV;Truck (26t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0.2338;0.1273;0.06547;0.06547
+SSP2Leap;IND;BEV;Truck (40t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0.2338;0.1273;0.06547;0.06547
+SSP2Leap;IND;BEV;Truck (7_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0.02787;0.06365;0.0643;0.0643
+SSP2Leap;IND;Electric;Freight Rail_tmp_vehicletype;Freight Rail_tmp_subsectorL3;Freight Rail_tmp_subsectorL2;Freight Rail;trn_freight;FV;1;1;1;1;1
+SSP2Leap;IND;Electric;HSR_tmp_vehicletype;HSR_tmp_subsectorL3;HSR_tmp_subsectorL2;HSR;trn_pass;FV;1;1;1;1;1
+SSP2Leap;IND;Electric;Passenger Rail_tmp_vehicletype;Passenger Rail_tmp_subsectorL3;Passenger Rail_tmp_subsectorL2;Passenger Rail;trn_pass;FV;1;1;1;1;1
+SSP2Leap;IND;FCEV;Bus_tmp_vehicletype;Bus_tmp_subsectorL3;Bus;trn_pass_road;trn_pass;FV;0;0;0.01963;0.05456;0.05456
+SSP2Leap;IND;FCEV;Truck (0-3_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0;0.008625;0.001595;0.001595
+SSP2Leap;IND;FCEV;Truck (18t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0;0.003271;0.001091;0.001091
+SSP2Leap;IND;FCEV;Truck (26t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0;0.1819;0.002182;0.002182
+SSP2Leap;IND;FCEV;Truck (40t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0;0.1819;0.002182;0.002182
+SSP2Leap;IND;FCEV;Truck (7_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0;0;0.008625;0.001595;0.001595
+SSP2Leap;IND;Gases;Bus_tmp_vehicletype;Bus_tmp_subsectorL3;Bus;trn_pass_road;trn_pass;FV;0.1;0.1;0.05;0.01;0.01
+SSP2Leap;IND;Gases;Truck (0-3_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0.05;0.003;0.002;0.001;0.0001
+SSP2Leap;IND;Gases;Truck (18t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0.05;0.003;0.002;0.001;0.0001
+SSP2Leap;IND;Gases;Truck (26t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0.05;0.003;0.002;0.001;0.0001
+SSP2Leap;IND;Gases;Truck (40t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0.05;0.003;0.002;0.001;0.0001
+SSP2Leap;IND;Gases;Truck (7_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;0.05;0.003;0.002;0.001;0.0001
+SSP2Leap;IND;Hydrogen;Domestic Aviation_tmp_vehicletype;Domestic Aviation_tmp_subsectorL3;Domestic Aviation_tmp_subsectorL2;Domestic Aviation;trn_pass;FV;0;8.32E-07;4.54E-05;0.1192;0.1192
+SSP2Leap;IND;Liquids;Bus_tmp_vehicletype;Bus_tmp_subsectorL3;Bus;trn_pass_road;trn_pass;FV;1;1;1;1;1
+SSP2Leap;IND;Liquids;Domestic Aviation_tmp_vehicletype;Domestic Aviation_tmp_subsectorL3;Domestic Aviation_tmp_subsectorL2;Domestic Aviation;trn_pass;FV;1;1;1;1;1
+SSP2Leap;IND;Liquids;Domestic Ship_tmp_vehicletype;Domestic Ship_tmp_subsectorL3;Domestic Ship_tmp_subsectorL2;Domestic Ship;trn_freight;FV;1;1;1;1;1
+SSP2Leap;IND;Liquids;Freight Rail_tmp_vehicletype;Freight Rail_tmp_subsectorL3;Freight Rail_tmp_subsectorL2;Freight Rail;trn_freight;FV;0.4;0.3;0.1;0.01;0
+SSP2Leap;IND;Liquids;International Aviation_tmp_vehicletype;International Aviation_tmp_subsectorL3;International Aviation_tmp_subsectorL2;International Aviation;trn_aviation_intl;FV;1;1;1;1;1
+SSP2Leap;IND;Liquids;International Ship_tmp_vehicletype;International Ship_tmp_subsectorL3;International Ship_tmp_subsectorL2;International Ship;trn_shipping_intl;FV;1;1;1;1;1
+SSP2Leap;IND;Liquids;Moped;trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;0.4;0.1;0.1
+SSP2Leap;IND;Liquids;Rickshaw;trn_pass_road_LDV_3W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;0.4;0.1;0.1
+SSP2Leap;IND;Liquids;Motorcycle (50-250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;FV;1;1;0.4;0.1;0.1
+SSP2Leap;IND;Liquids;Passenger Rail_tmp_vehicletype;Passenger Rail_tmp_subsectorL3;Passenger Rail_tmp_subsectorL2;Passenger Rail;trn_pass;FV;0.3;0.15;0.05;0.01;0
+SSP2Leap;IND;Liquids;Truck (0-3_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;2;1.5;1;1;1
+SSP2Leap;IND;Liquids;Truck (18t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;2;1.5;1;1;1
+SSP2Leap;IND;Liquids;Truck (26t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;2;1.5;1;1;1
+SSP2Leap;IND;Liquids;Truck (40t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;2;1.5;1;1;1
+SSP2Leap;IND;Liquids;Truck (7_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;FV;2;1.5;1;1;1
+SSP2Leap;IND;;Compact Car;trn_pass_road_LDV_4W;trn_pass_road_LDV;trn_pass_road;trn_pass;VS3;1;1;1;1;1
+SSP2Leap;IND;;Large Car and SUV;trn_pass_road_LDV_4W;trn_pass_road_LDV;trn_pass_road;trn_pass;VS3;1;1;1;1;1
+SSP2Leap;IND;;Mini Car;trn_pass_road_LDV_4W;trn_pass_road_LDV;trn_pass_road;trn_pass;VS3;0.006374;0.006374;0.006374;0.006374;0.006374
+SSP2Leap;IND;;Moped;trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;VS3;0.09503;0.09503;0.09503;0.09503;0.09503
+SSP2Leap;IND;;Motorcycle (>250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;VS3;1;1;1;1;1
+SSP2Leap;IND;;Motorcycle (50-250cc);trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;VS3;1;1;1;1;1
+SSP2Leap;IND;;Subcompact Car;trn_pass_road_LDV_4W;trn_pass_road_LDV;trn_pass_road;trn_pass;VS3;0.3518;0.3518;0.3518;0.3518;0.3518
+SSP2Leap;IND;;Truck (0-3_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;VS3;0.15;0.25;0.4;0.4;0.4
+SSP2Leap;IND;;Truck (18t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;VS3;0.05;0.1;0.1;0.1;0.1
+SSP2Leap;IND;;Truck (26t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;VS3;0.4;0.3;0.2;0.2;0.2
+SSP2Leap;IND;;Truck (40t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;VS3;0.1;0.1;0.1;0.1;0.1
+SSP2Leap;IND;;Truck (7_5t);trn_freight_road_tmp_subsectorL3;trn_freight_road_tmp_subsectorL2;trn_freight_road;trn_freight;VS3;1.2;0.7;0.5;0.5;0.5
+SSP2Leap;IND;;;trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;S3S2;0.072;0.06;0.05108;0.05108;0.05108
+SSP2Leap;IND;;;trn_pass_road_LDV_4W;trn_pass_road_LDV;trn_pass_road;trn_pass;S3S2;1;1;1;1;1
+SSP2Leap;IND;;;;Bus;trn_pass_road;trn_pass;S2S1;1;0.3638;0.16;0.03;0.03
+SSP2Leap;IND;;;;trn_pass_road_LDV;trn_pass_road;trn_pass;S2S1;0.7344;1;1;1;1
+SSP2Leap;IND;;;;;Cycle;trn_pass;S1S;0.01915;0.03175;0.075;0.13;0.13
+SSP2Leap;IND;;;;;Domestic Aviation;trn_pass;S1S;1.4;0.7575;0.4;0.25;0.25
+SSP2Leap;IND;;;;;Domestic Ship;trn_freight;S1S;0.02;0.01;0.01;0.01;0.01
+SSP2Leap;IND;;;;;Freight Rail;trn_freight;S1S;0.35;0.2;0.132;0.08;0.08
+SSP2Leap;IND;;;;;HSR;trn_pass;S1S;0;0.0003175;0.0002;0.0002;0.0002
+SSP2Leap;IND;;;;;International Aviation;trn_aviation_intl;S1S;1;1;1;1;1
+SSP2Leap;IND;;;;;International Ship;trn_shipping_intl;S1S;1;1;1;1;1
+SSP2Leap;IND;;;;;Passenger Rail;trn_pass;S1S;0.004978;0.0045;0.005;0.004;0.004
+SSP2Leap;IND;;;;;trn_freight_road;trn_freight;S1S;1;1;1;1;1
+SSP2Leap;IND;;;;;trn_pass_road;trn_pass;S1S;1;1;1;0.6;0.6
+SSP2Leap;IND;;;;;Walk;trn_pass;S1S;1.053;0.9;1.2;1.2;1.2
