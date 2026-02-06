@@ -12587,9 +12587,9 @@ SSP2Leap;FRA;;;;;Passenger Rail;trn_pass;S1S;0.003972;0.002979;0.0023832;0.003;0
 SSP2Leap;FRA;;;;;trn_freight_road;trn_freight;S1S;1;1;1;1.1;1.1
 SSP2Leap;FRA;;;;;trn_pass_road;trn_pass;S1S;0.09055;0.06;0.04;0.04;0.04
 SSP2Leap;FRA;;;;;Walk;trn_pass;S1S;1;1;1;1;1
-SSP2Leap;IND;;;trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;S3S2;0.072;0.06;0.05108;0.05108;0.05108
-SSP2Leap;IND;;;trn_pass_road_LDV_4W;trn_pass_road_LDV;trn_pass_road;trn_pass;S3S2;1.1;1.1;1.1;1.1;1.1
-SSP2Leap;IND;;;;Bus;trn_pass_road;trn_pass;S2S1;3;1.0914;0.48;0.09;0.09
+SSP2Leap;IND;;;trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;S3S2;0.072;0.12;0.10216;0.10216;0.05108
+SSP2Leap;IND;;;trn_pass_road_LDV_4W;trn_pass_road_LDV;trn_pass_road;trn_pass;S3S2;1.65;1.65;1.1;1.1;1.1
+SSP2Leap;IND;;;;Bus;trn_pass_road;trn_pass;S2S1;2.1;0.76398;0.48;0.09;0.09
 SSP2Leap;IND;;;;trn_pass_road_LDV;trn_pass_road;trn_pass;S2S1;0.7344;1;1;1;1
 SSP2Leap;IND;;;;;Cycle;trn_pass;S1S;0.0383;0.0635;0.15;0.26;0.26
 SSP2Leap;IND;;;;;Domestic Aviation;trn_pass;S1S;1.4;0.7575;0.4;0.25;0.25
@@ -14006,7 +14006,7 @@ SSP2Detour;FRA;;;;;trn_pass_road;trn_pass;S1S;0.09055;0.06;0.04;0.04;0.04
 SSP2Detour;FRA;;;;;Walk;trn_pass;S1S;1;1;1;1;1
 SSP2Detour;IND;;;trn_pass_road_LDV_2W;trn_pass_road_LDV;trn_pass_road;trn_pass;S3S2;0.0864;0.072;0.061296;0.061296;0.061296
 SSP2Detour;IND;;;trn_pass_road_LDV_4W;trn_pass_road_LDV;trn_pass_road;trn_pass;S3S2;1.32;1.32;1.32;1.32;1.32
-SSP2Detour;IND;;;;Bus;trn_pass_road;trn_pass;S2S1;0.9;0.32742;0.144;0.027;0.027
+SSP2Detour;IND;;;;Bus;trn_pass_road;trn_pass;S2S1;0.9;0.32742;0.1296;0.0243;0.027
 SSP2Detour;IND;;;;trn_pass_road_LDV;trn_pass_road;trn_pass;S2S1;0.7344;1;1;1;1
 SSP2Detour;IND;;;;;Cycle;trn_pass;S1S;0.009575;0.015875;0.0375;0.065;0.065
 SSP2Detour;IND;;;;;Domestic Aviation;trn_pass;S1S;1.4;0.7575;0.4;0.25;0.25
