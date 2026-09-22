@@ -1,6 +1,6 @@
 Package: edgeTransport
 Title: Prepare EDGE Transport Data for the REMIND model
-Version: 3.14.0.9001
+Version: 3.21.0
 Authors@R: c(
     person("Johanna", "Hoppe", email = "johanna.hoppe@pik-potsdam.de", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0004-6753-5090")),
@@ -19,9 +19,8 @@ License: GPL-3
 URL: https://github.com/pik-piam/edgeTransport
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.3
 VignetteBuilder: knitr
-Date: 2026-06-04
+Date: 2026-09-15
 Config/testthat/edition: 3
 Imports:
     rmndt,
@@ -29,10 +28,8 @@ Imports:
     rootSolve,
     madrat,
     magrittr,
-    gdx,
-    gdxrrw,
+    gdx2,
     zoo,
-    gdxdt,
     mrdrivers,
     reporttransport (>= 1.1.0)
 Suggests:
@@ -42,3 +39,4 @@ Suggests:
     covr,
     piamPlotComparison,
     renv
+Config/roxygen2/version: 8.0.0
