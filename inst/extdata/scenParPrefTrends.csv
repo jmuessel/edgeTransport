@@ -3859,11 +3859,11 @@ SSP2,Mix3,IND,BEV,Truck|heavy,trn_freight_road_tmp_subsectorL3,trn_freight_road_
 SSP2,Mix3,IND,FCEV,Truck|heavy,trn_freight_road_tmp_subsectorL3,trn_freight_road_tmp_subsectorL2,trn_freight_road,FV,5.07,2030,3
 SSP2,Mix3,IND,Liquids,Truck|heavy,trn_freight_road_tmp_subsectorL3,trn_freight_road_tmp_subsectorL2,trn_freight_road,FV,21,2077,3
 SSP2,Mix4,IND,,,,,Cycle,S1S,3.77,2039,4.7
-SSP2,Mix4,IND,,,,,Domestic Aviation,S1S,0.794,2060,3.1
+SSP2,Mix4,IND,,,,,Domestic Aviation,S1S,0.628,2052,6.7
 SSP2,Mix4,IND,,,,,Domestic Ship,S1S,1.88,2037,8.1
 SSP2,Mix4,IND,,,,,Freight Rail,S1S,6.35,2043,6.5
-SSP2,Mix4,IND,,,,,HSR,S1S,2.11,2037,2.9
-SSP2,Mix4,IND,,,,,Passenger Rail,S1S,2.11,2037,2.9
+SSP2,Mix4,IND,,,,,HSR,S1S,2.1,2037,3
+SSP2,Mix4,IND,,,,,Passenger Rail,S1S,2.1,2037,3
 SSP2,Mix4,IND,,,,,trn_freight_road,S1S,0.5,2050,25
 SSP2,Mix4,IND,,,,,trn_pass_road,S1S,0.718,2046,1
 SSP2,Mix4,IND,,,,,Walk,S1S,3.77,2039,4.7
